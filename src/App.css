@@ -2,8 +2,9 @@
     --dark-blue: #212335;
     --blue: #232639;
     --orange: #FD4959;
-    --gray: #3C3F4D;
+    --gray: #7b7e8a;
     --light-blue: #3C3F4D;
+    --card: #2B2D40;
 }
 
 .App {
@@ -16,4 +17,21 @@
 
 .text {
     color: var(--gray);
+}
+
+.title {
+    color: var(--orange);
+}
+
+.horizontal_line {
+    height: 4px;
+    width: 100px;
+    margin-left: 15px;
+    background-color: var(--orange);
+}
+
+input {
+    background-color: var(--card);
+    color: var(--gray);
+    border: 0;
 }

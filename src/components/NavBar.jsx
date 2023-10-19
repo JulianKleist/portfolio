@@ -32,7 +32,7 @@ function NavBar() {
         }
     ];
     return (
-        <Navbar className="main_container py-3">
+        <Navbar data-bs-theme="dark" className="main_container py-3" expand="lg">
             <Container className="main_container">
                 <Navbar.Brand className='text-white' href="#home">LOGO</Navbar.Brand>
                 <Navbar.Toggle />
