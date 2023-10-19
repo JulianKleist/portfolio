@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { Nav } from 'react-bootstrap';
+import './Navbar.css';
 
 function NavBar() {
 
@@ -31,16 +32,16 @@ function NavBar() {
         }
     ];
     return (
-        <Navbar className="bg-body-tertiary">
-            <Container>
-                <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        <Navbar className="main_container py-3">
+            <Container className="main_container">
+                <Navbar.Brand className='text-white' href="#home">LOGO</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav className='ms-auto'>
                         {
                             menuData.map((item) => (
                                 <Nav.Link to={item.path} key={item.name}>
-                                    <div className='list_item'>{item.name}</div>
+                                    <div className='list_item text-white'>{item.name}</div>
                                 </Nav.Link>
                             ))
                         }

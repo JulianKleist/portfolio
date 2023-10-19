@@ -1,0 +1,6 @@
+.cstm_button {
+    background-color: var(--orange);
+    border: 0;
+    height: 48px;
+    color: white;
+}

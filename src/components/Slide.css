@@ -1,0 +1,12 @@
+.circle {
+    height: 15px;
+    width: 15px;
+    border: 2px solid var(--orange);
+    border-radius: 50%;
+}
+
+.line {
+    height: 50px;
+    width: 0.1px;
+    border: 0.1px solid gray;
+}

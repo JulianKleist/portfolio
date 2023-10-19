@@ -1,0 +1,19 @@
+:root {
+    --dark-blue: #212335;
+    --blue: #232639;
+    --orange: #FD4959;
+    --gray: #3C3F4D;
+    --light-blue: #3C3F4D;
+}
+
+.App {
+    background-color: var(--blue);
+}
+
+.container {
+    background-color: var(--blue);
+}
+
+.text {
+    color: var(--gray);
+}
