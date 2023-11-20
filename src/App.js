@@ -15,11 +15,12 @@ function App() {
       <NavBar />
       <div className='container pt-5 px-5 mt-5'>
         <div className='row text-white'>
-          <h1>Hola, me llamo Julian</h1>
-          <h1>soy un Frontend Developer</h1>
+          <h1>Hello, my name is Julian</h1>
+          <h1>I'm a Frontend Developer</h1>
           <div className='container col-12 col-md-11'>
             <div className='row'>
-              <p className='text col-11 col-md-5 my-3'>Adaptable y autodidacta, con habilidad para aprender rápidamente nuevas tecnologías. Comprometido con el crecimiento continuo y la excelencia, siempre en busca de oportunidades para expandir mis conocimientos y habilidades en el campo del desarrollo.</p>
+              <p className='text col-11 col-md-5 my-3'>
+Adaptable and self-taught, with the ability to quickly learn new technologies. Committed to continuous growth and excellence, always seeking opportunities to expand my knowledge and skills in the field of development.</p>
             </div>
           </div>
           <Slide number={'one'} />

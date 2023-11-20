@@ -1,7 +1,7 @@
 import React from 'react';
 import './custom_button.css';
 
-function Custom_button({name}) {
+function Custom_button({ name }) {
     return (
         <div className='container mb-5'>
             <div className='row mb-5'>

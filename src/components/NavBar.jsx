@@ -34,7 +34,11 @@ function NavBar() {
     return (
         <Navbar data-bs-theme="dark" className="main_container py-3" expand="lg">
             <Container className="main_container">
-                <Navbar.Brand className='text-white' href="#home">LOGO</Navbar.Brand>
+                <Navbar.Brand className='text-white' href="#home">
+                <div class="loader">
+                    <div data-glitch="Loading..." class="glitch">Loading...</div>
+                </div>
+                </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav className='ms-auto'>
